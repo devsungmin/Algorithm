@@ -1,22 +1,12 @@
-# 대소문자를 구문해주는 문장을 만들기 위해서 upper() 함수를 사용함
-input_str = str(input().upper())
-alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-max_str = 0
-
-for char in alpha:
-    char_num = input_str.count(char)
-    if char_num > max_str:
-        char_maxnum = char_num
-
-max_alpha = []
-for char in alpha:
-    if input_str.count(char) == char_maxnum:
-        if max_alpha:
-            max_alpha.append(char)
-            print("?")
+import collections
+input_str = list(input().upper())
+cnt_str = collections.Counter(input_str)
+cnt_max = []
+for i, j in cnt_str.items():
+    if j == max(cnt_str.values()):
+        cnt_max.append(i)
+        if len(cnt_max) > 1:
+            print('?')
             break
-        else:
-            max_alpha.append(char)
-
-if len(max_alpha) == 1:
-    print(max_alpha[0])
+if len(cnt_max) == 1:
+    print(cnt_max[0])
