@@ -6,7 +6,3 @@
     * [C](https://github.com/devsungmin/BackJoon-Algorithm/tree/master/C)
     * [Java](https://github.com/devsungmin/BackJoon-Algorithm/tree/master/Java)
     * [Python](https://github.com/devsungmin/BackJoon-Algorithm/tree/master/Python)
-
----
- * 문제 풀이
-    * [블로그 : https://sungmin.dev/](https://sungmin.dev/category/)
