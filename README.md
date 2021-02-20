@@ -1,6 +1,6 @@
 # 알고리즘 문제 풀이
 ```
- 💡조금씩 준히 풀자!
+ 💡조금씩 꾸준히 풀자!
 ```
 * 코드
     * [BackJoon](https://github.com/devsungmin/Algorithm/tree/master/BackJoon)
